@@ -1,6 +1,6 @@
 from transformers import AutoModelForQuestionAnswering, AutoTokenizer, pipeline
 
-model_name = "deepset/roberta-base-squad2"
+model_name = "mrm8488/bert-small-finetuned-squadv2"
 
 # a) Get predictions
 nlp = pipeline('question-answering', model=model_name, tokenizer=model_name)
